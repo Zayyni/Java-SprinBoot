@@ -1,0 +1,17 @@
+package com.app.zayyni.testrunner;
+
+import org.springframework.boot.CommandLineRunner;
+
+import com.app.zayyni.service.EmailService;
+
+public class TestObjRunner implements CommandLineRunner{
+	
+
+	private EmailService service;
+	
+	public void run(String... args) throws Exception {
+		
+		
+	}
+
+}

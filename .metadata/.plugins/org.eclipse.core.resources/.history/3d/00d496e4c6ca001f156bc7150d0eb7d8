@@ -1,0 +1,14 @@
+package com.app.zayyni.service;
+
+import org.springframework.stereotype.Component;
+
+
+@Component
+public class EmailService {
+	
+	private String host;
+	private int port;
+	private String username;
+	private boolean active;
+
+}

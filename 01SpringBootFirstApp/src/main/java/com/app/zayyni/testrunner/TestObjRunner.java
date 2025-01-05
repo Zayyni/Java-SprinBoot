@@ -1,0 +1,20 @@
+package com.app.zayyni.testrunner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.app.zayyni.service.EmailService;
+
+public class TestObjRunner implements CommandLineRunner{
+	
+
+	@Autowired
+	private EmailService service;
+	
+	public void run(String... args) throws Exception {
+		System.out.println(service);
+		
+		
+	}
+
+}
