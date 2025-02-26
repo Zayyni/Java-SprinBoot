@@ -4,6 +4,7 @@ import java.util.Properties;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
+import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
@@ -30,14 +31,29 @@ public class LiveMatchStream {
 		
 		
 		KafkaProducer<Integer, String> liveMatchStream = new KafkaProducer<Integer,String>(props);
+		System.out.println("Kafka Produer Created");
 		
 		/**
 		 * Step=3 Create producer record and send to kafka broker
 		 * */
 		
+		System.out.println("Sending 1 million records");
+		long startTime = System.currentTimeMillis();
 		
+		for (int i=1; i<=AppConfig.NUM_EVENTS;i++) {
+			String message = "Match Replay"+ i ;
+			ProducerRecord<Integer, String> stream = new ProducerRecord<Integer, String>(AppConfig.TOPIC_NAME,i,message);
+			liveMatchStream.send(stream);
+		}
+		System.out.println("1 million records sent");
+		long endTime = System.currentTimeMillis();
+		System.out.println("Total Time taken to send "+AppConfig.NUM_EVENTS + "are:\t" + (endTime-startTime)+ " in mills");
 		
-		
+		/**
+		 * Step=4 Close the producer session
+		 * */
+		liveMatchStream.close();
+		System.out.println("Produer is Closed");
 		
 		
 		

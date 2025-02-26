@@ -14,15 +14,7 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="com.app.zayyni.bean.Vendor"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="org.springframework.mail.javamail.JavaMailSender"/>
-    <fullyQualifiedTypeName name="org.springframework.mail.javamail.MimeMessageHelper"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
-    <fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
-    <fullyQualifiedTypeName name="com.app.zayyni.util.EmailUtil"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.app.zayyni.service.AlertSystem"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Profile"/>
     <fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
@@ -32,4 +24,14 @@
     <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.IntegerSerializer"/>
     <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringSerializer"/>
     <fullyQualifiedTypeName name="org.apache.kafka.clients.producer.KafkaProducer"/>
+    <fullyQualifiedTypeName name="org.springframework.mail.javamail.JavaMailSender"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+    <fullyQualifiedTypeName name="jakarta.mail.internet.MimeMessage"/>
+    <fullyQualifiedTypeName name="org.springframework.mail.javamail.MimeMessageHelper"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.app.zayyni.util.EmailUtil"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
 </qualifiedTypeNameHistroy>
