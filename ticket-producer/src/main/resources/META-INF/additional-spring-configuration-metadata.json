@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "movie.tickets.topic",
+    "type": "java.lang.String",
+    "description": "A description for 'movie.tickets.topic'"
+  },
+  {
+    "name": "movie.tickets.partitions",
+    "type": "java.lang.String",
+    "description": "A description for 'movie.tickets.partitions'"
+  }
+]}

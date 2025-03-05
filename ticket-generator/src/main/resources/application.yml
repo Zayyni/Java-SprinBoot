@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ticket-generator
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: 5001
+
+movie:
+  trailer-url: https://youtu.be/GSycMV-_Csw

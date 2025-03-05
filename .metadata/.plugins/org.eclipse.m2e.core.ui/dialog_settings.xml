@@ -50,6 +50,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="kafka-producer-multi-threading"/>
 			<item value="kafka-producer-sample1"/>
 		</list>
 		<list key="projectNameTemplate">
