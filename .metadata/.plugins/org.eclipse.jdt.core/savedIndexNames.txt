@@ -1,17 +1,2 @@
 INDEX VERSION 1.134+F:\WorkSpace6AM_BOOT\.metadata\.plugins\org.eclipse.jdt.core
-3125862285.index
-2814243144.index
-1948197719.index
-466957744.index
-713070271.index
-4179993788.index
-3192781374.index
-725918027.index
-3989984537.index
-655725940.index
-3252357663.index
-3049180369.index
-4036107217.index
-3559167893.index
-1388275114.index
 1865797976.index
