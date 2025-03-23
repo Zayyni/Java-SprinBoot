@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc1f8d0-4c05-4bb4-9317-f127901c1096" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBootInputMediaType/src/main/java/com/zayyni/springbootinputmediatype/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootInputMediaType/src/main/java/com/zayyni/springbootinputmediatype/rest/StudentRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +59,8 @@
       <workItem from="1742491554643" duration="124000" />
       <workItem from="1742494943856" duration="604000" />
       <workItem from="1742579264346" duration="232000" />
+      <workItem from="1742669184262" duration="1481000" />
+      <workItem from="1742724272312" duration="148000" />
     </task>
     <servers />
   </component>
