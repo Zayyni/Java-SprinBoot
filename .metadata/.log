@@ -13062,3 +13062,138 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-
 !MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.2.1
 !SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-04-15 22:32:27.808
 !MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.2.1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:18:16.986
+!MESSAGE Classpath changed for project: PaymentApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:18:16.987
+!MESSAGE Boot project REMOVED: PaymentApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:18:22.114
+!MESSAGE Classpath changed for project: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:18:22.115
+!MESSAGE Boot project REMOVED: SpringCloudEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:19:39.305
+!MESSAGE Classpath changed for project: SpringBootMongoDbOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:19:39.308
+!MESSAGE Boot project ADDED: SpringBootMongoDbOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:19:41.469
+!MESSAGE Classpath changed for project: SpringBootMongoDbOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-15 23:19:41.816
+!MESSAGE Classpath changed for project: SpringBootMongoDbOperations
+!SESSION 2025-04-20 18:51:23.830 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-20 18:51:41.056
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-20 18:52:08.087
+!MESSAGE Logback config file: F:\WorkSpace6AM_BOOT\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-20 18:52:08.950
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-20 18:52:08.950
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-20 18:52:09.466
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-20 18:52:09.466
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-20 18:52:17.447
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/WorkSpace6AM_BOOT/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745157137446
+-Dlanguageserver.hover-timeout=225
+-jar
+F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 18:52:17.447
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-20 18:52:17.462
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4116
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-20 18:52:19.262
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 18:52:19.684
+!MESSAGE Boot project ADDED: SpringBootMongoDbOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 18:52:19.685
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 18:52:19.686
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:16:42.535
+!MESSAGE Classpath changed for project: SpringBootMongoDbOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:16:42.539
+!MESSAGE Boot project REMOVED: SpringBootMongoDbOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 21:43:06.665
+!MESSAGE Classpath changed for project: SpringCloudDCEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 21:43:06.684
+!MESSAGE Boot project ADDED: SpringCloudDCEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 21:43:09.974
+!MESSAGE Classpath changed for project: SpringCloudDCEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 21:49:22.213
+!MESSAGE Classpath changed for project: SpringCloudDCEmpApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 21:49:22.216
+!MESSAGE Boot project ADDED: SpringCloudDCEmpApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 21:49:22.992
+!MESSAGE Classpath changed for project: SpringCloudDCEmpApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:03:18.366
+!MESSAGE Classpath changed for project: SpringCloudDCDeptApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:03:18.366
+!MESSAGE Boot project ADDED: SpringCloudDCDeptApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:03:20.017
+!MESSAGE Classpath changed for project: SpringCloudDCDeptApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:32:07.066
+!MESSAGE Classpath changed for project: SpringCloudDCDeptApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:32:07.066
+!MESSAGE Boot project REMOVED: SpringCloudDCDeptApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:32:12.922
+!MESSAGE Classpath changed for project: SpringCloudDCEmpApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:32:12.922
+!MESSAGE Boot project REMOVED: SpringCloudDCEmpApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:32:17.796
+!MESSAGE Classpath changed for project: SpringCloudDCEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 22:32:17.797
+!MESSAGE Boot project REMOVED: SpringCloudDCEurekaServer
