@@ -54,6 +54,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.app.zayyni</groupId>
+			<artifactId>SpringCloudFCVendor</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>

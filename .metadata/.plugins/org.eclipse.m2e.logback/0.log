@@ -10833,3 +10833,481 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2025-04-21 23:20:49,324 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudLBCBranchService\src\test\resources
 2025-04-21 23:27:16,277 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@29a0dd6{STOPPING}[12.0.12,sto=0]
 2025-04-21 23:27:16,281 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3d86b33e{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-04-22 22:11:56,634 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-22 22:12:37,514 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCEureka:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\pom.xml.
+2025-04-22 22:12:40,108 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCEureka/src/main/java
+2025-04-22 22:12:40,110 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCEureka/src/main/resources
+2025-04-22 22:12:40,132 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCEureka/src/main/resources
+2025-04-22 22:12:40,144 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCEureka/src/test/java
+2025-04-22 22:12:40,145 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCEureka/src/test/resources
+2025-04-22 22:12:41,884 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-04-22 22:12:41,888 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-22 22:12:42,486 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCEureka:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\pom.xml.
+2025-04-22 22:12:44,073 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCEureka/src/main/java
+2025-04-22 22:12:44,074 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCEureka/src/main/resources
+2025-04-22 22:12:44,075 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCEureka/src/main/resources
+2025-04-22 22:12:44,076 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCEureka/src/test/java
+2025-04-22 22:12:44,076 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCEureka/src/test/resources
+2025-04-22 22:12:45,466 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-04-22 22:12:50,913 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:12:50,945 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:12:50,954 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\src\test\resources
+2025-04-22 22:13:15,893 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:13:15,900 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:13:15,904 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\src\test\resources
+2025-04-22 22:13:31,057 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:13:31,066 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:13:31,070 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\src\test\resources
+2025-04-22 22:14:25,576 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:14:25,581 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:14:25,585 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\src\test\resources
+2025-04-22 22:14:41,747 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:14:41,751 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:14:41,755 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\src\test\resources
+2025-04-22 22:15:42,675 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCVendor:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\pom.xml.
+2025-04-22 22:15:43,780 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCVendor/src/main/java
+2025-04-22 22:15:43,782 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCVendor/src/main/resources
+2025-04-22 22:15:43,788 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCVendor/src/main/resources
+2025-04-22 22:15:43,793 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCVendor/src/test/java
+2025-04-22 22:15:43,794 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCVendor/src/test/resources
+2025-04-22 22:15:44,156 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-04-22 22:15:44,158 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-22 22:15:44,630 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCVendor:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\pom.xml.
+2025-04-22 22:15:46,406 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCVendor/src/main/java
+2025-04-22 22:15:46,407 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCVendor/src/main/resources
+2025-04-22 22:15:46,408 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCVendor/src/main/resources
+2025-04-22 22:15:46,409 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCVendor/src/test/java
+2025-04-22 22:15:46,410 [Worker-4: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCVendor/src/test/resources
+2025-04-22 22:15:47,021 [Worker-4: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2025-04-22 22:15:47,476 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:15:47,492 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:15:47,497 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:16:15,419 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:16:15,424 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:16:15,427 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:17:20,736 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:17:20,747 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:17:20,749 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:18:01,098 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:18:01,102 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:18:01,106 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:18:17,389 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:18:17,391 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:18:17,395 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:19:39,519 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:19:39,535 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:19:39,538 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:19:58,873 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:19:58,891 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:19:58,893 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:20:57,399 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:20:57,410 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:20:57,413 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:21:01,675 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:21:01,684 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:21:01,687 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:21:15,533 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:21:15,544 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:21:15,547 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:21:18,670 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:21:18,679 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:21:18,682 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:22:39,884 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCProduct:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\pom.xml.
+2025-04-22 22:22:42,205 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.2.1/spring-cloud-starter-openfeign-4.2.1.pom
+2025-04-22 22:22:42,415 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.2.1/spring-cloud-starter-openfeign-4.2.1.pom
+2025-04-22 22:22:42,607 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign/4.2.1/spring-cloud-openfeign-4.2.1.pom
+2025-04-22 22:22:42,794 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign/4.2.1/spring-cloud-openfeign-4.2.1.pom
+2025-04-22 22:22:42,986 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.2.1/spring-cloud-openfeign-core-4.2.1.pom
+2025-04-22 22:22:43,066 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.2.1/spring-cloud-openfeign-core-4.2.1.pom
+2025-04-22 22:22:43,316 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5.pom
+2025-04-22 22:22:44,360 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5.pom
+2025-04-22 22:22:44,541 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/parent/13.5/parent-13.5.pom
+2025-04-22 22:22:44,944 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/parent/13.5/parent-13.5.pom
+2025-04-22 22:22:45,125 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.5/feign-form-13.5.pom
+2025-04-22 22:22:45,149 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.5/feign-form-13.5.pom
+2025-04-22 22:22:45,334 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.5/feign-core-13.5.pom
+2025-04-22 22:22:45,359 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.5/feign-core-13.5.pom
+2025-04-22 22:22:45,533 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.pom
+2025-04-22 22:22:45,650 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.pom
+2025-04-22 22:22:45,830 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/56/commons-parent-56.pom
+2025-04-22 22:22:46,981 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/56/commons-parent-56.pom
+2025-04-22 22:22:47,196 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5.pom
+2025-04-22 22:22:47,199 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5.pom
+2025-04-22 22:22:47,585 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.2.1/spring-cloud-starter-openfeign-4.2.1.jar
+2025-04-22 22:22:47,588 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.2.1/spring-cloud-starter-openfeign-4.2.1.jar
+2025-04-22 22:22:47,754 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5.jar
+2025-04-22 22:22:47,923 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5.jar
+2025-04-22 22:22:47,990 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.2.1/spring-cloud-openfeign-core-4.2.1.jar
+2025-04-22 22:22:48,136 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.5/feign-core-13.5.jar
+2025-04-22 22:22:48,173 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar
+2025-04-22 22:22:48,521 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.5/feign-form-13.5.jar
+2025-04-22 22:22:48,669 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5.jar
+2025-04-22 22:22:48,896 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5.jar
+2025-04-22 22:22:49,231 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar
+2025-04-22 22:22:49,423 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.5/feign-form-13.5.jar
+2025-04-22 22:22:49,573 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.2.1/spring-cloud-openfeign-core-4.2.1.jar
+2025-04-22 22:22:51,162 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.5/feign-core-13.5.jar
+2025-04-22 22:22:51,392 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCProduct/src/main/java
+2025-04-22 22:22:51,392 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCProduct/src/main/resources
+2025-04-22 22:22:51,394 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCProduct/src/main/resources
+2025-04-22 22:22:51,396 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCProduct/src/test/java
+2025-04-22 22:22:51,396 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCProduct/src/test/resources
+2025-04-22 22:22:51,729 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 12 sec
+2025-04-22 22:22:51,730 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-22 22:22:52,027 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCProduct:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\pom.xml.
+2025-04-22 22:22:52,920 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCProduct/src/main/java
+2025-04-22 22:22:52,921 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCProduct/src/main/resources
+2025-04-22 22:22:52,922 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCProduct/src/main/resources
+2025-04-22 22:22:52,923 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringCloudFCProduct/src/test/java
+2025-04-22 22:22:52,923 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringCloudFCProduct/src/test/resources
+2025-04-22 22:22:53,317 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-04-22 22:22:53,424 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.2.1/spring-cloud-starter-openfeign-4.2.1-sources.jar
+2025-04-22 22:22:53,427 [Worker-3: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:4.2.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.2.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-04-22 22:22:53,644 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:22:53,663 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:22:53,670 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:22:53,780 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.2.1/spring-cloud-openfeign-core-4.2.1-sources.jar
+2025-04-22 22:22:53,989 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.2.1/spring-cloud-openfeign-core-4.2.1-sources.jar
+2025-04-22 22:22:53,993 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-openfeign-core:4.2.1
+2025-04-22 22:22:54,302 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5-sources.jar
+2025-04-22 22:22:54,307 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form-spring/13.5/feign-form-spring-13.5-sources.jar
+2025-04-22 22:22:54,309 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-form-spring:13.5
+2025-04-22 22:22:55,064 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.5/feign-form-13.5-sources.jar
+2025-04-22 22:22:55,590 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-form/13.5/feign-form-13.5-sources.jar
+2025-04-22 22:22:55,592 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-form:13.5
+2025-04-22 22:22:55,949 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5-sources.jar
+2025-04-22 22:22:57,779 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5-sources.jar
+2025-04-22 22:22:57,782 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.5
+2025-04-22 22:22:58,291 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.5/feign-core-13.5-sources.jar
+2025-04-22 22:22:58,608 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.5/feign-core-13.5-sources.jar
+2025-04-22 22:22:58,611 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-core:13.5
+2025-04-22 22:22:58,930 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5-sources.jar
+2025-04-22 22:22:58,936 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.5/feign-slf4j-13.5-sources.jar
+2025-04-22 22:22:58,938 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-slf4j:13.5
+2025-04-22 22:23:36,414 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.4+7-LTS
+2025-04-22 22:23:36,488 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@57d84b3f{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@249b14d1{STARTED}}
+2025-04-22 22:23:36,489 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-04-22 22:23:36,511 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@40343bc1{HTTP/1.1, (http/1.1)}{127.0.0.1:50605}
+2025-04-22 22:23:36,547 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@61e19534{STARTING}[12.0.12,sto=0] @2174697ms
+2025-04-22 22:23:39,571 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:23:39,576 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:23:39,579 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:24:04,382 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:24:04,387 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:24:04,390 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:24:47,471 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:24:47,494 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:24:47,498 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:30:00,261 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:30:00,267 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:30:00,288 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:30:45,258 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:30:45,263 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:30:45,266 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:30:50,992 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:30:51,000 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:30:51,004 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:31:23,599 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:31:23,604 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:31:23,607 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:32:01,792 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:32:01,800 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:32:01,803 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:32:19,105 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:32:19,111 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:32:19,114 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:32:22,331 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:32:22,336 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:32:22,339 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:34:00,244 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:34:00,251 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:34:00,254 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:34:16,814 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:34:16,820 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:34:16,823 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:34:38,811 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:34:38,816 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:34:38,820 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:35:16,562 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:16,566 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:16,570 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:35:31,719 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:31,723 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:31,726 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:35:42,637 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:42,643 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:42,646 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:36:25,092 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:36:25,097 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:36:25,102 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:36:30,643 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:36:30,649 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:36:30,653 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:36:50,268 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:36:50,273 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:36:50,276 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:37:08,605 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:37:08,612 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:37:08,615 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-22 22:37:54,573 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:37:54,584 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:37:54,586 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:38:35,467 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:38:35,475 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:38:35,478 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:38:57,836 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-22 22:38:57,847 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:38:57,852 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:40:27,611 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:40:27,616 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:40:27,621 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:40:40,729 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:40:40,734 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:40:40,736 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-22 22:40:58,380 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.2.1/spring-cloud-starter-openfeign-4.2.1-javadoc.jar
+2025-04-22 22:40:58,384 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-openfeign:4.2.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-04-22 23:11:16,452 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@61e19534{STOPPING}[12.0.12,sto=0]
+2025-04-22 23:11:16,459 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@40343bc1{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-04-23 21:45:28,321 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-23 21:55:18,594 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCVendor:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\pom.xml.
+2025-04-23 21:55:21,882 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCVendor:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\pom.xml.
+2025-04-23 21:56:30,943 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:56:31,045 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:56:31,118 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:56:36,308 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:56:36,324 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:56:36,329 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:56:51,479 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:56:51,494 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:56:51,498 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:57:00,767 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:57:00,789 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:57:00,908 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:57:11,267 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:57:11,275 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:57:11,279 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:57:14,506 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:57:14,519 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:57:14,523 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:57:21,587 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:57:21,599 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:57:21,606 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:58:12,279 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:58:12,296 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:58:12,301 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:58:31,110 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:58:31,127 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:58:31,136 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:58:49,246 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:58:49,259 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:58:49,262 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:59:05,199 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:59:05,221 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:59:05,226 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:59:19,533 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:59:19,543 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:59:19,548 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 21:59:49,421 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 21:59:49,433 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 21:59:49,440 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:00:22,689 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:00:22,702 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:00:22,730 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:00:41,394 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:00:41,408 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:00:41,413 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:00:53,022 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:00:53,033 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:00:53,037 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:01:39,434 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:01:39,448 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:01:39,453 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:01:52,927 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:01:52,935 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:01:52,938 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:03:39,823 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:03:39,839 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:03:39,842 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:12:52,415 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCProduct:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\pom.xml.
+2025-04-23 22:18:19,209 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:18:19,232 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:18:19,240 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:18:49,887 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:18:49,898 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:18:49,901 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:19:08,803 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCProduct:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\pom.xml.
+2025-04-23 22:19:09,426 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/SpringCloudFCVendor: com.app.zayyni:SpringCloudFCVendor:1.0 with classifier  to /SpringCloudFCVendor/target/classes
+2025-04-23 22:19:09,777 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:19:09,778 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:19:09,783 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:19:11,519 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:19:11,554 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:19:11,558 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:19:28,053 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:19:28,058 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:19:28,061 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:20:36,391 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCProduct:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\pom.xml.
+2025-04-23 22:20:37,719 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/app/zayyni/SpringCloudFCVendor/1.0/SpringCloudFCVendor-1.0.pom
+2025-04-23 22:20:37,722 [Worker-24: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.app.zayyni:SpringCloudFCVendor:jar:1.0 is missing, no dependency information available
+2025-04-23 22:20:38,117 [Worker-24: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/app/zayyni/SpringCloudFCVendor/1.0/SpringCloudFCVendor-1.0.jar
+2025-04-23 22:20:39,731 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/app/zayyni/SpringCloudFCVendor/1.0/SpringCloudFCVendor-1.0-sources.jar
+2025-04-23 22:20:39,734 [Worker-26: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.app.zayyni:SpringCloudFCVendor:1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.app.zayyni:SpringCloudFCVendor:jar:sources:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-04-23 22:20:49,923 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCVendor:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\pom.xml.
+2025-04-23 22:20:50,748 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCProduct:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\pom.xml.
+2025-04-23 22:20:50,974 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/SpringCloudFCVendor: com.app.zayyni:SpringCloudFCVendor:1.0 with classifier  to /SpringCloudFCVendor/target/classes
+2025-04-23 22:20:52,006 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:20:52,009 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:20:52,012 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:23:32,494 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:23:32,499 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:23:32,501 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:24:20,795 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:24:20,801 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:24:20,806 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:24:44,741 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:24:44,747 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:24:44,751 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:25:00,072 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:25:00,076 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:25:00,079 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:25:01,238 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:25:01,246 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:25:01,249 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:25:19,238 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:25:19,242 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:25:19,246 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:25:48,083 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:25:48,094 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:25:48,098 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:26:01,214 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:26:01,220 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:26:01,223 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:26:52,739 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:26:52,744 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:26:52,748 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCProduct\src\test\resources
+2025-04-23 22:27:16,008 [Worker-21: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringCloudFCEureka:1.0 @ F:\WorkSpace6AM_BOOT\SpringCloudFCEureka\pom.xml.
+2025-04-23 22:28:09,566 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-23 22:28:09,588 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:28:09,593 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:28:21,323 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 22:28:21,375 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 22:28:21,378 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringCloudFCVendor\src\test\resources
+2025-04-23 22:28:45,370 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [360])
+2025-04-23 22:28:45,373 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-04-23 22:28:45,373 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-04-23 22:28:45,373 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-04-23 22:28:45,374 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-04-23 22:28:45,375 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-04-23 22:28:45,376 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-04-23 22:28:45,377 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-04-23 22:28:45,378 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [29])
+2025-04-23 22:28:45,378 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\com.google.guava_33.3.0.jre.jar
+2025-04-23 22:28:45,378 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [593])
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\slf4j.api_2.0.16.jar
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [45])
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [41])
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [77])
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [80])
+2025-04-23 22:28:45,379 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-04-23 22:28:45,380 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [30])
+2025-04-23 22:28:45,380 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-04-23 22:28:45,397 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "F:\WorkSpace6AM_BOOT\SpringCloudFCProduct":
+2025-04-23 22:28:45,397 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always verify
+2025-04-23 22:28:45,397 [Worker-35: Launching Executing verify in F__WorkSpace6AM_BOOT_SpringCloudFCProduct] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2025-04-23 22:29:06,669 [Worker-31: Launching SpringCloudFCProduct - SpringCloudFcProductApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/SpringCloudFCVendor: com.app.zayyni:SpringCloudFCVendor:1.0 with classifier null to /SpringCloudFCVendor/target/classes
+2025-04-23 22:29:06,818 [Worker-31: Launching SpringCloudFCProduct - SpringCloudFcProductApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/SpringCloudFCVendor: com.app.zayyni:SpringCloudFCVendor:1.0 with classifier null to /SpringCloudFCVendor/target/classes
+2025-04-23 22:29:06,953 [Worker-31: Launching SpringCloudFCProduct - SpringCloudFcProductApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/SpringCloudFCVendor: com.app.zayyni:SpringCloudFCVendor:1.0 with classifier null to /SpringCloudFCVendor/target/classes
