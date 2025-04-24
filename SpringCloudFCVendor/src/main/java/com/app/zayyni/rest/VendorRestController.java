@@ -5,8 +5,12 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -46,4 +50,32 @@ public class VendorRestController {
 				new Vendor(12,"C","HYD")
 				));
 	};
+	
+	
+	@PostMapping("/create")
+	public ResponseEntity<String> saveVendor(@RequestBody Vendor vendor){
+		
+		String body = "Data is => "+vendor;
+		System.out.println(body);
+		return ResponseEntity.ok(body);
+	};
+	
+	
+	@DeleteMapping("/remove/{id}")
+	public String removeVendor(@PathVariable Integer id) {
+		
+		
+		return "Deleted Successfully => " + id;
+	};
+	
+	
+	@PutMapping("/modified")
+	public ResponseEntity<String> updateVendor(
+			@RequestBody Vendor vendor
+			){
+		
+		
+		return ResponseEntity.ok("Updated! " + vendor); 
+	}
+	
 }
