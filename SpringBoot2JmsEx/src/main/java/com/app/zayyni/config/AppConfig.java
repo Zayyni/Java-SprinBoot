@@ -3,6 +3,7 @@ package com.app.zayyni.config;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jms.core.JmsTemplate;
 
 import jakarta.jms.ConnectionFactory;
 
@@ -19,4 +20,8 @@ public class AppConfig {
 		return am;
 	}
 
+	@Bean
+	public JmsTemplate jt() {
+		return new JmsTemplate(conn());
+	}
 }

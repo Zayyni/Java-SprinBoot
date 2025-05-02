@@ -1279,3 +1279,93 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 23:02:27.510
 !MESSAGE Boot project REMOVED: SpringBoot2JmsEx
+!SESSION 2025-05-02 22:29:48.789 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 22:30:06.091
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 22:36:44.800
+!MESSAGE Logback config file: F:\WorkSpace6AM_BOOT\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 22:36:45.810
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 22:36:45.810
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 22:36:46.421
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 22:36:46.421
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-02 22:36:55.102
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:53:09.149
+!MESSAGE Classpath changed for project: SpringBoot2JmsEx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:53:09.150
+!MESSAGE Boot project ADDED: SpringBoot2JmsEx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:53:09.152
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:53:09.271
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 22:53:09.352
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=F:/WorkSpace6AM_BOOT/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746208389351
+-Dlanguageserver.hover-timeout=225
+-jar
+F:\MySts\spring-tool-suite-4-4.26.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:53:09.353
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 22:53:09.373
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4072
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-02 22:53:27.222
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:55:41.178
+!MESSAGE Classpath changed for project: SpringBoot2JmsEx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:55:41.181
+!MESSAGE Boot project REMOVED: SpringBoot2JmsEx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:56:28.449
+!MESSAGE Classpath changed for project: SpringBoot2JmsProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:56:28.450
+!MESSAGE Boot project ADDED: SpringBoot2JmsProducerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:56:28.734
+!MESSAGE Classpath changed for project: SpringBoot2JmsProducerApp
