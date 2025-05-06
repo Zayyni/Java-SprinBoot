@@ -16,3 +16,7 @@ spring:
 
 server:
   port: 9898
+
+my:
+  app:
+    topicname: zayynione
