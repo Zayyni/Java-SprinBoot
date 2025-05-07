@@ -2517,3 +2517,54 @@ java.lang.IllegalStateException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:50:10.382
 !MESSAGE Boot project REMOVED: SpringBootSZProviderTwoApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:51:04.207
+!MESSAGE Classpath changed for project: SpringBootSZProviderOneApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:51:04.207
+!MESSAGE Boot project ADDED: SpringBootSZProviderOneApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:51:04.996
+!MESSAGE Classpath changed for project: SpringBootSZProviderTwoApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:51:04.996
+!MESSAGE Boot project ADDED: SpringBootSZProviderTwoApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:53:42.827
+!MESSAGE Classpath changed for project: SpringBootSZProviderThreeApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:53:42.828
+!MESSAGE Boot project ADDED: SpringBootSZProviderThreeApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 22:53:44.080
+!MESSAGE Classpath changed for project: SpringBootSZProviderThreeApp
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-07 22:54:49.641
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 23:48:54.857
+!MESSAGE Classpath changed for project: SpringBootSZProviderOneApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 23:48:54.870
+!MESSAGE Boot project REMOVED: SpringBootSZProviderOneApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 23:48:57.581
+!MESSAGE Classpath changed for project: SpringBootSZProviderThreeApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 23:48:57.582
+!MESSAGE Boot project REMOVED: SpringBootSZProviderThreeApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 23:49:00.313
+!MESSAGE Classpath changed for project: SpringBootSZProviderTwoApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 23:49:00.313
+!MESSAGE Boot project REMOVED: SpringBootSZProviderTwoApp
