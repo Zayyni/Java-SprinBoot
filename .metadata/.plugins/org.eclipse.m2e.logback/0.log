@@ -13949,3 +13949,25 @@ Caused by: java.lang.Exception: Resource '/SpringBoot2JmsProducerApp/pom.xml' do
 2025-05-09 22:41:58,970 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-09 22:41:58,977 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-05-09 22:41:58,982 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringBootCBPaymentService\src\test\resources
+2025-05-10 22:34:22,784 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-10 22:35:58,093 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringBootGetwayEureka:1.0 @ F:\WorkSpace6AM_BOOT\SpringBootGetwayEureka\pom.xml.
+2025-05-10 22:36:01,292 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootGetwayEureka/src/main/java
+2025-05-10 22:36:01,296 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootGetwayEureka/src/main/resources
+2025-05-10 22:36:01,319 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootGetwayEureka/src/main/resources
+2025-05-10 22:36:01,345 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootGetwayEureka/src/test/java
+2025-05-10 22:36:01,347 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootGetwayEureka/src/test/resources
+2025-05-10 22:36:02,784 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-05-10 22:36:02,790 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-10 22:36:03,426 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app.zayyni:SpringBootGetwayEureka:1.0 @ F:\WorkSpace6AM_BOOT\SpringBootGetwayEureka\pom.xml.
+2025-05-10 22:36:06,511 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootGetwayEureka/src/main/java
+2025-05-10 22:36:06,512 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootGetwayEureka/src/main/resources
+2025-05-10 22:36:06,513 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootGetwayEureka/src/main/resources
+2025-05-10 22:36:06,514 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootGetwayEureka/src/test/java
+2025-05-10 22:36:06,515 [Worker-9: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootGetwayEureka/src/test/resources
+2025-05-10 22:36:07,741 [Worker-9: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 0.00 sec 
+2025-05-10 22:36:11,948 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-10 22:36:11,963 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-10 22:36:11,969 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringBootGetwayEureka\src\test\resources
+2025-05-10 22:39:54,354 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-10 22:39:54,362 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-10 22:39:54,391 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\WorkSpace6AM_BOOT\SpringBootGetwayEureka\src\test\resources
