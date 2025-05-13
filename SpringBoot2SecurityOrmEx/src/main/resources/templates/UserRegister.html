@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem 3rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: 500;
+            color: #334155;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            margin-top: 0.5rem;
+        }
+
+        .roles {
+            margin-top: 1rem;
+        }
+
+        .roles label {
+            display: inline-block;
+            margin-right: 1rem;
+            font-weight: 400;
+        }
+
+        .submit-btn {
+            margin-top: 1.5rem;
+            width: 100%;
+            padding: 0.6rem;
+            background-color: #3b82f6;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #2563eb;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 1rem;
+            color: #10b981;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>User Registration</h3>
+        <form th:action="@{/user/save}" method="post">
+            <label for="userName">User Name</label>
+            <input type="text" name="userName" id="userName" required />
+
+            <label for="userMail">User Mail</label>
+            <input type="email" name="userMail" id="userMail" required />
+
+            <label for="userPwd">User Password</label>
+            <input type="password" name="userPwd" id="userPwd" required />
+
+            <div class="roles">
+                <label>User Roles:</label><br/>
+                <label><input type="checkbox" name="userRoles" value="ADMIN" /> ADMIN</label>
+                <label><input type="checkbox" name="userRoles" value="EMPLOYEE" /> EMPLOYEE</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Add User</button>
+        </form>
+
+        <div class="message" th:text="${message}"></div>
+    </div>
+</body>
+</html>
