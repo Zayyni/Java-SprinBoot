@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.apache.activemq.command.MessageAck"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="org.springframework.jms.annotation.EnableJms"/>
-    <fullyQualifiedTypeName name="com.app.zayyni.repo.ProductRepository"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Document"/>
     <fullyQualifiedTypeName name="com.app.zayyni.model.Vendor"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
@@ -32,12 +24,7 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
     <fullyQualifiedTypeName name="ch.qos.logback.core.pattern.color.BoldCyanCompositeConverter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.session.RedisSessionProperties.ConfigureAction"/>
-    <fullyQualifiedTypeName name="org.springframework.security.authorization.AuthenticatedAuthorizationManager"/>
-    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder"/>
-    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
@@ -58,6 +45,19 @@
     <fullyQualifiedTypeName name="com.app.zayyni.model.User"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.app.zayyni.service.IUserService"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UsernameNotFoundException"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetails"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.GrantedAuthority"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.authority.SimpleGrantedAuthority"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
+    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.security.authorization.AuthenticatedAuthorizationManager"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.builders.HttpSecurity"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
