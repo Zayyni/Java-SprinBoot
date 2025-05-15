@@ -10,8 +10,8 @@ public class WebMvcConfig {
 	@Bean
 	public InternalResourceViewResolver initresolver() {
 		InternalResourceViewResolver ir= new InternalResourceViewResolver();
-		ir.setPrefix("");
-		ir.setPrefix("");
+		ir.setPrefix("/");
+		ir.setPrefix(".html");
 		
 		return ir;
 	}
