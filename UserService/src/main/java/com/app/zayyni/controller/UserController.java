@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.app.zayyni.model.User;
@@ -36,6 +37,22 @@ public class UserController {
 	@GetMapping("/getAllUser")
 	public List<User> getUsers(){
 		return ul;
+	}
+	
+	
+	@GetMapping("/user/{uid}")
+	public User getUserById(@PathVariable int uid) {
+		return ul.stream().filter(u->u.getUid()== uid)
+				.findFirst()
+				.orElseThrow(()->new RuntimeException("User not found with id "+ uid));
+	}
+	
+	
+	@GetMapping("/username/{uname}")
+	public User getUserbyName(@PathVariable String uname) {
+		return ul.stream().filter(u->u.getUname().equalsIgnoreCase(uname))
+				.findFirst()
+				.orElseThrow(()->new RuntimeException("User not found with name "+ uname));
 	}
 
 }
