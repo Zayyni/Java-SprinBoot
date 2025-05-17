@@ -1,5 +1,8 @@
 package com.app.zayyni.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,6 +10,17 @@ import com.app.zayyni.model.User;
 
 @RestController
 public class UserController {
+	
+	List<User> ul = new ArrayList<>();
+	
+	public UserController() {
+		ul.add(new User(1,"ALI","Lhr","35784856"));
+		ul.add(new User(2,"USMAN","Khr","254385"));
+		ul.add(new User(3,"ZIA","Isl","98936893"));
+		ul.add(new User(4,"ZOHAIB","Fsd","687368768"));
+		ul.add(new User(5,"JOHN","Lhr","9389368936"));
+		ul.add(new User(6,"MIKE","Lhr","9389368936"));
+	}
 	
 	@GetMapping("/greet")
 	public String greet() {
@@ -16,7 +30,12 @@ public class UserController {
 	
 	@GetMapping("/user")
 	public User getUser() {
-		return new User(1,"demouser","Lhr");
+		return new User(1,"demouser","Lhr","63939986");
+	}
+	
+	@GetMapping("/getAllUser")
+	public List<User> getUsers(){
+		return ul;
 	}
 
 }

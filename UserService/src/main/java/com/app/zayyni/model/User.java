@@ -1,5 +1,7 @@
 package com.app.zayyni.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,5 +14,7 @@ public class User {
 	private int uid;
 	private String uname;
 	private String addr;
+	@JsonIgnore
+	private String password;
 
 }
