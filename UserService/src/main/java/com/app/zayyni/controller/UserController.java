@@ -21,6 +21,8 @@ public class UserController {
 		ul.add(new User(4,"ZOHAIB","Fsd","687368768"));
 		ul.add(new User(5,"JOHN","Lhr","9389368936"));
 		ul.add(new User(6,"MIKE","Lhr","9389368936"));
+		ul.add(new User(7,"JOHN","Lhr","93287246"));
+		ul.add(new User(8,"Jef","Fsd","875826"));
 	}
 	
 	@GetMapping("/greet")
