@@ -5,6 +5,9 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.app.zayyni.model.User;
@@ -43,6 +46,14 @@ public class UserController {
 		return ul;
 	}
 	
+	@PostMapping("/save")
+	public User insertUser(@RequestBody User usr) {
+		ul.add(usr);
+		return ul.stream().filter(u->u.getUid()== usr.getUid())
+				.findFirst()
+				.orElseThrow(()->new RuntimeException("Unable to save user"));
+	
+	}
 	
 	@GetMapping("/user/{uid}")
 	public User getUserById(@PathVariable int uid) {
@@ -57,6 +68,23 @@ public class UserController {
 		return ul.stream().filter(u->u.getUname().equalsIgnoreCase(uname))
 				.findFirst()
 				.orElseThrow(()->new RuntimeException("User not found with name "+ uname));
+	}
+	
+	
+	@PutMapping("/updateUser/{uid}")
+	public User updateUser(@PathVariable int uid, @RequestBody User usr) {
+		User existing = ul.stream().filter(u->u.getUid()== uid)
+		.findFirst()
+		.orElseThrow(()->new RuntimeException("User not found with id "+ uid));
+		
+		if(usr.getUname()!=null) {
+			existing.setUname(usr.getUname());
+		}
+		if(usr.getAddr()!=null) {
+			existing.setAddr (usr.getAddr());
+		}
+		return existing;
+		
 	}
 
 }
