@@ -1,9 +1,9 @@
 package com.app.zayyni.controller;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,8 +22,8 @@ public class UserController {
 	private UserService service;
 	
 	@GetMapping("/greet")
-	public String greet() {
-		return "Hello There !!!!";
+	public ResponseEntity<String>  greet() {
+		return new ResponseEntity<String>("Hello There !!!!",HttpStatus.OK);
 	}
 	
 	
@@ -33,38 +33,38 @@ public class UserController {
 	}
 	
 	@GetMapping("/getAllUser")
-	public List<User> getUsers(){
-		return service.getUsers();
+	public ResponseEntity<List<User>> getUsers(){
+		return new ResponseEntity<List<User>>(service.getUsers(),HttpStatus.OK);
 	}
 	
 	@PostMapping("/save")
-	public User insertUser(@RequestBody User usr) {
-		return service.insertUser(usr);
+	public ResponseEntity<User> insertUser(@RequestBody User usr) {
+		return new ResponseEntity<User>(service.insertUser(usr),HttpStatus.CREATED);
 	
 	}
 	
 	@GetMapping("/user/{uid}")
-	public User getUserById(@PathVariable int uid) {
-		return service.getUserById(uid);
+	public ResponseEntity<User> getUserById(@PathVariable int uid) {
+		return new ResponseEntity<User>(service.getUserById(uid),HttpStatus.OK);
 	}
 	
 	
 	@GetMapping("/username/{uname}")
-	public User getUserbyName(@PathVariable String uname) {
-		return service.getUserbyName(uname);
+	public ResponseEntity<User>  getUserbyName(@PathVariable String uname) {
+		return new ResponseEntity<User>(service.getUserbyName(uname),HttpStatus.OK);
 	}
 	
 	
 	@PutMapping("/updateUser/{uid}")
-	public User updateUser(@PathVariable int uid, @RequestBody User usr) {
-		return service.updateUser(uid, usr);
+	public ResponseEntity<User> updateUser(@PathVariable int uid, @RequestBody User usr) {
+		return new ResponseEntity<User>(service.updateUser(uid, usr),HttpStatus.CREATED);
 		
 	}
 
 	@DeleteMapping("/deleteUser/{uid}")
-	public String deleteUser(@PathVariable int uid) {
+	public ResponseEntity<String> deleteUser(@PathVariable int uid) {
 		
-		return service.deleteUser(uid);
+		return new ResponseEntity<String>(service.deleteUser(uid),HttpStatus.ACCEPTED);
 		
 	}
 }
