@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.app.zayyni.exceptions.UserNotFoundException;
 import com.app.zayyni.model.User;
 
 @Service
@@ -32,13 +33,13 @@ List<User> ul = new ArrayList<>();
 	public User getUserById(int uid) {
 		return ul.stream().filter(u->u.getUid()== uid)
 				.findFirst()
-				.orElseThrow(()->new RuntimeException("User not found with id "+ uid));
+				.orElseThrow(()->new UserNotFoundException("User not found with id "+ uid));
 	}
 	
 	public User getUserbyName(String uname) {
 		return ul.stream().filter(u->u.getUname().equalsIgnoreCase(uname))
 				.findFirst()
-				.orElseThrow(()->new RuntimeException("User not found with name "+ uname));
+				.orElseThrow(()->new UserNotFoundException("User not found with name "+ uname));
 	}
 	
 	public User insertUser(User usr) {
