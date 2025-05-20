@@ -63,9 +63,7 @@ List<User> ul = new ArrayList<>();
 	}
 	
 	public String deleteUser(int uid) {
-		User existing = ul.stream().filter(u->u.getUid()== uid)
-				.findFirst()
-				.orElseThrow(()->new RuntimeException("User not found with id "+ uid));
+		User existing = this.getUserById(uid);
 		ul.remove(existing);
 		
 		return "User deleted with Id: "+uid;
