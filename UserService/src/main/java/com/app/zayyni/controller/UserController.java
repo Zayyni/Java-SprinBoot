@@ -21,7 +21,7 @@ public class UserController {
 	@Autowired
 	private UserService service;
 	
-	@GetMapping(value = "/greet",produces = "application/text")
+	@GetMapping(value = "/greet",produces = "text/application")
 	public ResponseEntity<String>  greet() {
 		return new ResponseEntity<String>("<h1>Hello There !!!!</h1>",HttpStatus.OK);
 	}
