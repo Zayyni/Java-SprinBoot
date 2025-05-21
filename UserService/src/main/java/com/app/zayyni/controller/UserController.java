@@ -4,6 +4,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,7 +22,7 @@ public class UserController {
 	@Autowired
 	private UserService service;
 	
-	@GetMapping(value = "/greet",produces = "text/application")
+	@GetMapping(value = "/greet",produces = MimeTypeUtils.TEXT_PLAIN_VALUE)
 	public ResponseEntity<String>  greet() {
 		return new ResponseEntity<String>("<h1>Hello There !!!!</h1>",HttpStatus.OK);
 	}
