@@ -38,7 +38,7 @@ public class UserController {
 		return new ResponseEntity<List<User>>(service.getUsers(),HttpStatus.OK);
 	}
 	
-	@PostMapping("/save")
+	@PostMapping(value = "/save",consumes = MediaType.TEXT_PLAIN_VALUE)
 	public ResponseEntity<User> insertUser(@RequestBody User usr) {
 		return new ResponseEntity<User>(service.insertUser(usr),HttpStatus.CREATED);
 	
