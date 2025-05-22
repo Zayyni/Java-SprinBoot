@@ -1,7 +1,12 @@
 package com.app.zayyni.dao;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Product {
 	
+	@Id
 	private Integer pid;
 	private String name;
 	private Integer quantity;
