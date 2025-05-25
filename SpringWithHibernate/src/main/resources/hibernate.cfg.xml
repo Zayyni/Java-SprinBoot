@@ -10,6 +10,12 @@
 	<property name="connection.password">0000</property>
 	<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+	<!-- <property name="hbm2ddl.auto">create</property> Only Use for the first time -->
+	<!-- <property name="hbm2ddl.auto">Update</property> Use after create so that it should only update the tables -->
+	
+	
+	
+	
 
 </session-factory>
 </hibernate-configuration>
