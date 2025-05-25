@@ -27,7 +27,7 @@ public class ProductDao {
 	public List<Product> getProducts(){
 		Session session =sessionFactory.openSession();
 		Transaction ts =session.beginTransaction();
-		List<Product> productList=session.createQuery("from product").list();
+		List<Product> productList=session.createQuery("from Product").list();
 		ts.commit();
 		session.close();
 		return productList;
