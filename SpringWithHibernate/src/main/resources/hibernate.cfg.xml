@@ -11,7 +11,8 @@
 	<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 	<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 	<!-- <property name="hbm2ddl.auto">create</property> Only Use for the first time -->
-	<!-- <property name="hbm2ddl.auto">Update</property> Use after create so that it should only update the tables -->
+	<property name="hbm2ddl.auto">Update</property> <!-- Use after create so that it should only update the tables -->
+	<property name="show_sql">true</property>
 	<mapping class="com.app.zayyni.dao.Product"></mapping>
 </session-factory>
 </hibernate-configuration>
