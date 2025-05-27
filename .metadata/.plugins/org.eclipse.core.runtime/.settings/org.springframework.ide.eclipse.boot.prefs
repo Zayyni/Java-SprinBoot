@@ -11,7 +11,7 @@ org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-loadbalancer
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-resilience4j=2
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.codecentric-spring-boot-admin-client=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.codecentric-spring-boot-admin-server=1
-org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=12
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=13
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-mongodb=3
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=2
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.h2=1
