@@ -3,13 +3,18 @@ package com.app.zayyni.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.app.zayyni.dao.UserRepository;
 import com.app.zayyni.exceptions.UserNotFoundException;
 import com.app.zayyni.model.User;
 
 @Service
 public class UserService {
+	
+	@Autowired
+	UserRepository repo;
 	
 List<User> ul = new ArrayList<>();
 	
@@ -27,13 +32,15 @@ List<User> ul = new ArrayList<>();
 	}
 	
 	public List<User> getUsers(){
-		return ul;
+//		return ul;
+		return (List<User>) repo.findAll();
 	}
 	
 	public User getUserById(int uid) {
-		return ul.stream().filter(u->u.getUid()== uid)
-				.findFirst()
-				.orElseThrow(()->new UserNotFoundException("User not found with id "+ uid));
+//		return ul.stream().filter(u->u.getUid()== uid)
+//				.findFirst()
+//				.orElseThrow(()->new UserNotFoundException("User not found with id "+ uid));
+		return repo.findById(uid).orElseThrow(()->new UserNotFoundException("User not found with id "+ uid));
 	}
 	
 	public User getUserbyName(String uname) {
@@ -43,8 +50,9 @@ List<User> ul = new ArrayList<>();
 	}
 	
 	public User insertUser(User usr) {
-		ul.add(usr);
-		return this.getUserById(usr.getUid());
+//		ul.add(usr);
+//		return this.getUserById(usr.getUid());
+		return repo.save(usr);
 	
 	}
 	
