@@ -65,13 +65,15 @@ List<User> ul = new ArrayList<>();
 		if(usr.getAddr()!=null) {
 			existing.setAddr (usr.getAddr());
 		}
-		return existing;
+		return repo.save(existing);
 		
 	}
 	
 	public String deleteUser(int uid) {
-		User existing = this.getUserById(uid);
-		ul.remove(existing);
+//		User existing = this.getUserById(uid);
+//		ul.remove(existing);
+		
+		repo.deleteById(uid);
 		
 		return "User deleted with Id: "+uid;
 		
