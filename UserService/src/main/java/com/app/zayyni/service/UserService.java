@@ -56,7 +56,7 @@ public class UserService {
 				.orElseThrow(()->new UserNotFoundException("User not found with name "+ uname));
 	}
 	
-	public User getUserbyAddr(String addr) {
+	public List<User> getUserbyAddr(String addr) {
 		return repo.findByAddr(addr)
 				.orElseThrow(()->new UserNotFoundException("Address not found with "+ addr));
 	}
