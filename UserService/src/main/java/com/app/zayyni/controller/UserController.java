@@ -50,10 +50,10 @@ public class UserController {
 	}
 	
 	
-//	@GetMapping("/username/{uname}")
-//	public ResponseEntity<User>  getUserbyName(@PathVariable String uname) {
-//		return new ResponseEntity<User>(service.getUserbyName(uname),HttpStatus.OK);
-//	}
+	@GetMapping("/username/{uname}")
+	public ResponseEntity<User>  getUserbyName(@PathVariable String uname) {
+		return new ResponseEntity<User>(service.getUserbyName(uname),HttpStatus.OK);
+	}
 	
 	
 	@PutMapping("/updateUser/{uid}")

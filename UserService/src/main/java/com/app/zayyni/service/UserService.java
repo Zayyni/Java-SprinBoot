@@ -51,11 +51,10 @@ public class UserService {
 		return repo.findById(uid).orElseThrow(()->new UserNotFoundException("User not found with id "+ uid));
 	}
 	
-//	public User getUserbyName(String uname) {
-//		return ul.stream().filter(u->u.getUname().equalsIgnoreCase(uname))
-//				.findFirst()
-//				.orElseThrow(()->new UserNotFoundException("User not found with name "+ uname));
-//	}
+	public User getUserbyName(String uname) {
+		return repo.findByUname(uname)
+				.orElseThrow(()->new UserNotFoundException("User not found with name "+ uname));
+	}
 	
 	public User insertUser(User usr) {
 //		ul.add(usr);
