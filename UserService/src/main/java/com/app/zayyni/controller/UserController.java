@@ -55,6 +55,11 @@ public class UserController {
 		return new ResponseEntity<User>(service.getUserbyName(uname),HttpStatus.OK);
 	}
 	
+	@GetMapping("/address/{addr}")
+	public ResponseEntity<User>  getUserbyAddress(@PathVariable String addr) {
+		return new ResponseEntity<User>(service.getUserbyAddr(addr),HttpStatus.OK);
+	}
+	
 	
 	@PutMapping("/updateUser/{uid}")
 	public ResponseEntity<User> updateUser(@PathVariable int uid, @RequestBody User usr) {
