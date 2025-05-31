@@ -68,8 +68,8 @@ public class UserService {
 	
 	}
 	
-	public User getUnameAndAddr() {
-		return repo.findUserAddrAndUname();
+	public User getUnameAndAddr(String uname,String addr) {
+		return repo.findUserAddrAndUname(uname,addr);
 	}
 	
 	public User updateUser(int uid, User usr) {

@@ -17,7 +17,7 @@ public interface UserRepository extends CrudRepository<User, Integer>{
 	
 	Optional<List<User>> findByAddr(String addr);
 	
-	@Query(value = "Select * from user where uname='' and addr=''",nativeQuery = true)
-	public User findUserAddrAndUname();
+	@Query(value = "Select * from user where uname=:uname and addr=:addr ",nativeQuery = true)
+	public User findUserAddrAndUname(String uname,String addr);
 
 }
