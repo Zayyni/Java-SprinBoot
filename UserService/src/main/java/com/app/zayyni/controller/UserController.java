@@ -55,6 +55,11 @@ public class UserController {
 		return new ResponseEntity<User>(service.getUserbyName(uname),HttpStatus.OK);
 	}
 	
+	@GetMapping("/unameaddr")
+	public ResponseEntity<User>  getUserbyNameAndAddr() {
+		return new ResponseEntity<User>(service.getUnameAndAddr(),HttpStatus.OK);
+	}
+	
 	@GetMapping("/address/{addr}")
 	public ResponseEntity<List<User>>  getUserbyAddress(@PathVariable String addr) {
 		return new ResponseEntity<List<User>>(service.getUserbyAddr(addr),HttpStatus.OK);
