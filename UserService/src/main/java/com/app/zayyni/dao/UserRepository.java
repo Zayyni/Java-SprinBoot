@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.app.zayyni.model.User;
@@ -18,6 +19,6 @@ public interface UserRepository extends CrudRepository<User, Integer>{
 	Optional<List<User>> findByAddr(String addr);
 	
 	@Query(value = "Select * from user where uname=:uname and addr=:addr ",nativeQuery = true)
-	public User findUserAddrAndUname(String uname,String addr);
+	public User findUserAddrAndUname(@Param(value = "uname") String uname,@Param(value = "addr") String addr);
 
 }
