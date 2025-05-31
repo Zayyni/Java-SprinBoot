@@ -68,6 +68,10 @@ public class UserService {
 	
 	}
 	
+	public User getUnameAndAddr() {
+		return repo.findUserAddrAndUname();
+	}
+	
 	public User updateUser(int uid, User usr) {
 		User existing = this.getUserById(uid);
 		
