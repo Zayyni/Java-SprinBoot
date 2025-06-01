@@ -14,15 +14,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Entity
-public class Order {
+public class Orders {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+//	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer oid;
 	private String name;
 	private String status;
 	
-	@Autowired
-	private User user;
+//	@Autowired
+//	private User user;
 
 }
