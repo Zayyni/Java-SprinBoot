@@ -1,6 +1,4 @@
-package com.app.zayyni.model;
-
-import org.springframework.beans.factory.annotation.Autowired;
+package com.app.zayyni.dao;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,12 +15,11 @@ import lombok.NoArgsConstructor;
 public class Orders {
 	
 	@Id
-//	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer oid;
-	private String name;
+	private String itemname;
 	private String status;
+	private Integer uid;
 	
-//	@Autowired
-//	private User user;
 
 }
