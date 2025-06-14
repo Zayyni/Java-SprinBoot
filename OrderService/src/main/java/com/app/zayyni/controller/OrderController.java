@@ -19,7 +19,7 @@ public class OrderController {
 	
 	@GetMapping("/getAllOrders")
 	public List<Orders> getAllOrders(){
-		return repo.findAll();
+		return (List<Orders>) repo.findAll();
 	}
 	
 	@PostMapping("/")
