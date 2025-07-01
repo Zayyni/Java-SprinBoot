@@ -22,7 +22,7 @@ public class OrderController {
 		return (List<Orders>) repo.findAll();
 	}
 	
-	@PostMapping("/")
+	@PostMapping("/order")
 	public Orders saveOrder(@RequestBody Orders order) {
 		return repo.save(order);
 	}
