@@ -3,6 +3,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -33,6 +34,12 @@ public class UserController {
 		return new User(1,"demouser","Lhr","63939986");
 	}
 	
+	
+	@GetMapping("/userpage/{pageNo}/{pageSize}")
+	public ResponseEntity<List<User>> getUsersByPage(@PathVariable int pageNo,@PathVariable int pageSize){
+		return new ResponseEntity<List<User>>(service.getUserByPage(pageNo, pageSize),HttpStatus.OK);
+		
+	};
 	@GetMapping("/getAllUser")
 	public ResponseEntity<List<User>> getUsers(){
 		return new ResponseEntity<List<User>>(service.getUsers(),HttpStatus.OK);

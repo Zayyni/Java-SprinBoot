@@ -6,6 +6,9 @@ import java.util.List;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.app.zayyni.dao.UserRepository;
@@ -43,6 +46,13 @@ public class UserService {
 //		return ul;
 		return (List<User>) repo.findAll();
 	}
+	
+	public List<User> getUserByPage(int pageNo,int pageSize){
+		Pageable pageable = PageRequest.of(pageNo, pageSize);
+		
+		Page<User> page = repo.findAll(pageable);
+		return page.toList();
+	};
 	
 	public User getUserById(int uid) {
 //		return ul.stream().filter(u->u.getUid()== uid)

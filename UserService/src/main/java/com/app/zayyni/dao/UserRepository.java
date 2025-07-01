@@ -2,6 +2,7 @@ package com.app.zayyni.dao;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
@@ -12,7 +13,7 @@ import com.app.zayyni.model.User;
 
 
 @Repository
-public interface UserRepository extends PagingAndSortingRepository<User, Integer>{
+public interface UserRepository extends JpaRepository<User, Integer>{
 	
 	
 	Optional<User> findByUname(String Uname);
