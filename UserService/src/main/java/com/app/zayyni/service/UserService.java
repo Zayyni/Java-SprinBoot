@@ -51,6 +51,10 @@ public class UserService {
 		Pageable pageable = PageRequest.of(pageNo, pageSize);
 		
 		Page<User> page = repo.findAll(pageable);
+		
+		if(page.getContent().isEmpty()) {
+			throw new RuntimeException("No Records found for this page");
+		}
 		return page.toList();
 	};
 	
