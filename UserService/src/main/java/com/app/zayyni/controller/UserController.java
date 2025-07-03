@@ -35,8 +35,8 @@ public class UserController {
 	}
 	
 	
-	@GetMapping("/userpage/{pageNo}/{pageSize}")
-	public ResponseEntity<List<User>> getUsersByPage(@PathVariable int pageNo,@PathVariable int pageSize){
+	@GetMapping("/userpage/{pageSize}/{pageNo}")
+	public ResponseEntity<List<User>> getUsersByPage(@PathVariable int pageSize,@PathVariable int pageNo){
 		return new ResponseEntity<List<User>>(service.getUserByPage(pageNo, pageSize),HttpStatus.OK);
 		
 	};
