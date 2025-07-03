@@ -42,9 +42,9 @@ public class UserController {
 	};
 	
 	
-	@GetMapping("/userBySort/{sort}")
-	public ResponseEntity<List<User>> getUsersBySort(@PathVariable String sort){
-		return new ResponseEntity<List<User>>(service.getUserBySort(sort),HttpStatus.OK);
+	@GetMapping("/userBySort/{sort}/{asc}")
+	public ResponseEntity<List<User>> getUsersBySort(@PathVariable String sort,@PathVariable String asc){
+		return new ResponseEntity<List<User>>(service.getUserBySort(sort,asc),HttpStatus.OK);
 		
 	};
 	
