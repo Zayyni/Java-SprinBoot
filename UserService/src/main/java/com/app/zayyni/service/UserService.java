@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.app.zayyni.dao.UserRepository;
@@ -56,6 +57,10 @@ public class UserService {
 			throw new RuntimeException("No Records found for this page");
 		}
 		return page.toList();
+	};
+	
+	public List<User> getUserBySort(){
+		return repo.findAll(Sort.by("uname").descending());
 	};
 	
 	public User getUserById(int uid) {

@@ -40,6 +40,14 @@ public class UserController {
 		return new ResponseEntity<List<User>>(service.getUserByPage(pageNo, pageSize),HttpStatus.OK);
 		
 	};
+	
+	
+	@GetMapping("/userBySort")
+	public ResponseEntity<List<User>> getUsersBySort(){
+		return new ResponseEntity<List<User>>(service.getUserBySort(),HttpStatus.OK);
+		
+	};
+	
 	@GetMapping("/getAllUser")
 	public ResponseEntity<List<User>> getUsers(){
 		return new ResponseEntity<List<User>>(service.getUsers(),HttpStatus.OK);
