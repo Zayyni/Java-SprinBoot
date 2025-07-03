@@ -59,8 +59,8 @@ public class UserService {
 		return page.toList();
 	};
 	
-	public List<User> getUserBySort(){
-		return repo.findAll(Sort.by("uname").descending());
+	public List<User> getUserBySort(String sort){
+		return repo.findAll(Sort.by(sort).descending());
 	};
 	
 	public User getUserById(int uid) {
